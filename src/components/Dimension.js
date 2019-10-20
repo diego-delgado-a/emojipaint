@@ -1,10 +1,14 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-const Dimension = props => (
-  <div>
-    <label htmlFor={props.label}></label>
-    <input type="number" name={props.label} id={props.label} defaultValue="10" />
-  </div>
-);
+class Dimension extends Component {
+  state = { width:0, height: 0, selectedEmoji:'😊' }
+  render() {
+    return ( <div>
+      <div>
+        <div className="hello"></div>
+      </div>
+    </div> );
+  }
+}
 
 export default Dimension;

@@ -5,7 +5,7 @@ class Dimension extends Component {
   render() {
     return ( <div>
       <div>
-        <div className="hello"></div>
+        <div className="hi"></div>
       </div>
     </div> );
   }
